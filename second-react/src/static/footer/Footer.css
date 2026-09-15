@@ -1,0 +1,101 @@
+.footercontainer {
+    height: 85vh;
+    background-color: #F8F9FA;
+}
+
+.mainfooter {
+    display: flex;
+    justify-content: center;
+    gap: 170px;
+    /* background-color: red; */
+    padding: 50px 0;
+}
+
+.resources, .outreach, .research, .more {
+    display: grid;
+    gap: 20px;
+
+    h1 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 16px;
+        margin: 0%;
+        padding: 0%;
+    }
+}
+
+/* .underline {
+    width: 70%;
+    height: 30px;
+    color: green;
+    position: center;
+} */
+
+.footerline {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.bottomfooter {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 60px;
+}
+
+.bottomleft {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+    img {
+        width: 80px;
+    }
+
+    .leftcopy {
+        display: flex;
+
+        p {
+        font-size: 16px;
+        margin: auto;
+        }
+    }
+}
+
+.bottomright {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+
+    .help {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        padding: 12px;
+
+        img {
+            width: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            padding: 0%;
+        }
+    }
+    
+
+    p {
+        font-size: 16px;
+        margin: auto;
+    }
+
+    img {
+        width: 28px;
+        height: 22px;
+    }
+}
+
+.withoutarrow {
+    display: flex;
+}

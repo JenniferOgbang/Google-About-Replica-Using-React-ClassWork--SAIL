@@ -1,0 +1,17 @@
+.explorecontainer {
+    background-color: #F3F5FB;
+    height: 430px;
+    display: grid;
+    align-content: center;
+    justify-items: center;
+
+    h1 {
+        font-size: 60px;
+        font-weight: 400;
+    }
+}
+
+.googleicon {
+    margin-bottom: 10px;
+}
+
