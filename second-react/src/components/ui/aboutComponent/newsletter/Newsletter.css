@@ -1,34 +1,37 @@
-.sectionContainer {
-    height: 350px;
+.gsectionContainer {
+    height: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 100px 0;
 }
 
-.subcontainer {
-    height: 190px;
+.gsubcontainer {
+    height: 100%;
     width: 75%;
     background-color: #F3F5FB;
     display: flex;
-    border-radius: 35px;
+    border-radius: 25px;
     justify-content: space-evenly;
     /* padding: 20px; */
     margin: auto;
     align-items: center;
 }
 
-.copy {
+.ncopy {
     /* background-color: red; */
     margin: 0%;
     width: 73%;
-    gap: 10px;
+    gap: 15px;
+    display: grid;
 
     h1 {
-        font-size: 36px;
+        font-size: 30px;
+        font-weight: 400;
     }
 
     p {
-        font-size: 18px;
+        font-size: 16px;
         /* background-color: blue; */
         margin: 0%;
         padding: 0%;

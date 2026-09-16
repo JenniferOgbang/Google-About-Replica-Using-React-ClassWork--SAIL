@@ -14,9 +14,10 @@
     }
 }
 
-.copy {
+.gcopy {
     width: 480px;
     display: grid;
+    gap: 15px;
     /* justify-content: center;
     align-content: center; */
 
@@ -28,6 +29,7 @@
 
     p {
         font-size: 18px;
+        padding: 0%;
         /* background-color: rebeccapurple; */
     }
 }

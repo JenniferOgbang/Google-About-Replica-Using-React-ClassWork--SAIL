@@ -12,17 +12,38 @@ import Sheet from "../../../../assets/moving icons/sheet.webp";
 
 const MovingIcons = () => {
     return (
-        <div>
-            <img src= {Andriod} />
-            <img src= {Chrome} />
-            <img src= {Docs} />
-            <img src= {Gemini} />
-            <img src= {Gmail} />
-            <img src= {Googleicon} />
-            <img src= {Map} />
-            <img src= {Photo} />
-            <img src= {Playstore} />
-            <img src= {Sheet} />
+        <div className="iconscontainer">
+
+            <div className="movingicons">
+
+                <div className="iconset">
+                    <img src= {Andriod} />
+                    <img src= {Sheet} />
+                    <img src= {Playstore} />
+                    <img src= {Photo} />
+                    <img src= {Map} />
+                    <img src= {Googleicon} />
+                    <img src= {Gmail} />
+                    <img src= {Gemini} />
+                    <img src= {Docs} />
+                    <img src= {Chrome} />
+                </div>
+
+                <div className="iconset">
+                    <img src= {Andriod} />
+                    <img src= {Sheet} />
+                    <img src= {Playstore} />
+                    <img src= {Photo} />
+                    <img src= {Map} />
+                    <img src= {Googleicon} />
+                    <img src= {Gmail} />
+                    <img src= {Gemini} />
+                    <img src= {Docs} />
+                    <img src= {Chrome} />
+                </div>
+
+            </div>
+
         </div>
     )
 }

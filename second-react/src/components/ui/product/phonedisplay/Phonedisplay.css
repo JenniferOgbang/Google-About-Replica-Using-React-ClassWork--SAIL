@@ -1,0 +1,20 @@
+.phonecontainer {
+    /* background-color: green; */
+    /* padding: 50px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.phones {
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    img {
+        width: 100%;
+    }
+}

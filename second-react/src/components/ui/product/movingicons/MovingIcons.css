@@ -1,0 +1,33 @@
+.iconscontainer {
+    width: 100%;
+    overflow: hidden;
+    margin: 90px 0;
+}
+
+.movingicons {
+    display: flex;
+    width: max-content;
+    animation: scroll 40s linear infinite;
+}
+
+.iconset {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-right: 100px;
+    flex-shrink: 0;
+}
+
+.iconset img {
+    width: 40px;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(-50%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
