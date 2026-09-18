@@ -1,0 +1,137 @@
+.circle {
+    background-color: #E8F0FE;
+    width: 500px;
+    height: 480px;
+    border-radius: 10px;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    gap: 30px;
+
+    video {
+        width: 430px;
+        /* background-color: red; */
+    }
+    
+}
+
+.gdcopy {
+    /* background-color: blue; */
+    margin: auto;
+    width: 90%;
+    display: grid;
+    justify-items: center;
+    gap: 20px;
+
+    p {
+        /* background-color: green; */
+        font-size: 16px;
+        padding: 0%;
+        margin: auto;
+        text-align: center;
+        }
+
+    img {
+        /* background-color: magenta; */
+        width: 40px;
+    }
+}
+
+
+.lens {
+    background-color: #E8F0FE;
+    width: 500px;
+    height: 480px;
+    border-radius: 10px;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    gap: 30px;
+
+    img {
+        width: 430px;
+        /* background-color: red; */
+    }
+    
+}
+
+.gdcopy2 {
+    /* background-color: blue; */
+    margin: auto;
+    width: 90%;
+    display: grid;
+    justify-items: center;
+    gap: 20px;
+
+    p {
+        /* background-color: green; */
+        font-size: 16px;
+        padding: 0%;
+        margin: auto;
+        text-align: center;
+        }
+
+    img {
+        /* background-color: magenta; */
+        width: 40px;
+    }
+}
+
+
+.searchworks {
+    background-color: #E8F0FE;
+    width: 500px;
+    height: 180px;
+    border-radius: 10px;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    gap: 15px;
+
+    p {
+        /* background-color: green; */
+        font-size: 16px;
+        padding: 0%;
+        margin: auto;
+        text-align: center;
+        width: 90%;
+        }
+
+    img {
+        /* background-color: magenta; */
+        width: 40px;
+    }
+}
+
+
+.askai {
+    background-color: #E8F0FE;
+    width: 500px;
+    height: 180px;
+    border-radius: 10px;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    gap: 15px;
+
+    p {
+        /* background-color: green; */
+        font-size: 16px;
+        padding: 0%;
+        margin: auto;
+        text-align: center;
+        width: 90%;
+        }
+
+    img {
+        /* background-color: magenta; */
+        width: 40px;
+    }
+}
+
+
+.gridparent {
+    display: grid;
+    grid-template-columns: 2, 1fr;
+    height: 70vh
+}
